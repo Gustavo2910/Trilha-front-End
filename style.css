@@ -1,33 +1,52 @@
-form{
-    font-size:x-large;
+form {
+    font-size: x-large;
     margin-top: 10px;
     width: 475px;
     height: 124px;
     font-size: 250%;
+    margin-left: 7%
 }
 
-img{
-     position: fixed;
-      top: 0;
-      right: 0;
-      width: 70vw;  
-      height: 100vh; 
-      object-fit: cover;
-      z-index: -1;
-      overflow: hidden;
-        
+img {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+
 }
 
-input{
-    position: absolute;
+input {
     font-size: 50%;
-    box-shadow: 100cm;
-
-
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #f2f3f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+    color: #333;
 }
 
-body{
-        background-color: rgba(251,246,240,255);
+button {
+    margin-top:70%;
+    font-size: 50%;
+    all: unset;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
 }
 
-h1{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body {
+    background-color: rgba(251, 246, 240, 255);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
